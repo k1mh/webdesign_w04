@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* font-family: "Lora", serif; */
+body{
+    background: #FFD6E4;
+background: radial-gradient(circle, rgba(255, 214, 228, 1) 0%, rgba(192, 255, 238, 1) 100%);
+}
+#name{
+    display: inline-block;
+    margin-right: 10px; /* space between them */
+}
+h2.myname{
+    color: #FF6F61
+    ;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
+}
+h2.well{
+    font-family: "Lora", serif;
+    color: #2c3e50;
+    margin-left: 20px;
+}
+h1{
+    color: #3EB488;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+#ecom{
+    text-decoration: none;
+    color: #2c3e50;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+#ecom:hover{
+    transform: scale(1.05);
+    color: #D0006E;
+}
+#intro{
+    font-family: "Lora", serif;
+    color: #2c3e50;
+    font-size: larger;
+    margin-left: 20px;
+    font-weight: 700;
+}
+ul{
+    margin-left: 20px;
+    font-family: "Lora", serif;
+    color: #2c3e50;
+}
+#fav{
+    text-decoration: none;
+    color: #2c3e50;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+#fav:hover{
+    transform: scale(1.05);
+    color: #D0006E;
+}
+.food{
+    margin-left: 35px;
+}
+.food img{
+
+    width: 355px;
+    height: 355px;
+    object-fit: cover; /* makes all foods same size neatly */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.food img:hover{
+    transform: scale(1.25)
+}
+h3{
+    font-family: "Lora", serif;
+    color: #2c3e50;
+    text-align: center;
+}
+.socials {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center if parent has height */
+  gap: 20px;                /* space between icons */
+  margin-top: 20px;
+}
+.socials img {
+  width: 40px;   /* size of icons */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+.socials img:hover {
+  transform: scale(1.2);  /* zoom effect on hover */
+}
+#contact{
+    font-family: "Lora", serif;
+    color: #2c3e50;
+    text-align: center;
+}
