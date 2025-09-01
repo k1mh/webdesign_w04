@@ -1,1 +1,19 @@
 /* TODO */
+button {
+    padding: 20px 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border-width: 5px ;
+    border-color: blueviolet;
+    background-color: mediumslateblue;
+    color: antiquewhite;
+    text-transform: uppercase;
+    transition: transform 0.3s ease,color 0.3s ease;
+}
+button:hover {
+    cursor: pointer;
+    background-color: coral;
+    border-color: crimson;
+    transform: scale(1.05);
+}

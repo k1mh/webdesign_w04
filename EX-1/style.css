@@ -2,3 +2,37 @@ body {
     background: grey;
     font-family: sans-serif;
 }
+.box1, .box2, .box3{
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+    margin: 0 100px 0 100px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.para{
+    padding-top: 20px;
+}
+.but1, .but2, .but3{
+    padding: 10px;
+    border-radius: 30px;
+}
+.but1 {
+    background-color: mediumaquamarine;
+    color: antiquewhite;
+}
+.but2{
+    background-color: yellow;
+    color: black;
+}
+.but3{
+    background-color: blueviolet;
+    color: antiquewhite ;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
